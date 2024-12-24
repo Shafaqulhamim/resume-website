@@ -1,8 +1,14 @@
 import React from "react";
+import profileImage from "./images/image.png";
 
 function Header() {
   return (
     <header style={styles.header}>
+    <img
+    src={profileImage}
+    alt="Profile"
+    style={styles.image}
+  />
       <h1 style={styles.name}>Md Shafaqul Islam Hamim</h1>
       <p style={styles.title}>Web Developer</p>
       <p style={styles.contact}>Email: shafaquli@gmail.com | Phone: (409) 223-6114</p>
@@ -11,6 +17,14 @@ function Header() {
 }
 
 const styles = {
+  image: {
+    borderRadius: "50%", 
+    width: "20%", 
+    maxWidth: "150px", 
+    height: "auto", 
+    display: "block",
+    margin: "0 auto 20px",
+  },
   header: {
     textAlign: "center",
     padding: "20px",

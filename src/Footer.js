@@ -3,13 +3,13 @@ import React from "react";
 function Footer() {
   return (
     <footer style={styles.footer}>
-      <p>&copy; 2024 John Doe. All rights reserved.</p>
+      <p>&copy; 2024 Md Shafaqul Islam Hamim. All rights reserved.</p>
       <div>
-        <a href="https://github.com/johndoe" style={styles.link}>
+        <a href="https://github.com/Shafaqulhamim" style={styles.link}>
           GitHub
         </a>{" "}
         |{" "}
-        <a href="https://linkedin.com/in/johndoe" style={styles.link}>
+        <a href="https://www.linkedin.com/in/md-shafaqul-islam-hamim/" style={styles.link}>
           LinkedIn
         </a>
       </div>

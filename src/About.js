@@ -9,6 +9,7 @@ function About() {
         using modern frameworks. I enjoy solving complex problems and creating
         impactful solutions.
       </p>
+      <hr style={styles.line} />
     </section>
   );
 }
@@ -16,8 +17,25 @@ function About() {
 const styles = {
   section: {
     padding: "20px",
+    textAlign: "left", 
     backgroundColor: "#f4f4f9",
-    textAlign: "center",
+    // maxWidth: "800px", 
+    margin: "0 auto",
+  },
+  heading: {
+    fontSize: "1.8rem",
+    marginBottom: "10px",
+  },
+  text: {
+    fontSize: "1rem",
+    lineHeight: "1.6",
+    marginBottom: "20px",
+  },
+  line: {
+    border: "none",
+    borderTop: "2px solid #ddd", 
+    marginTop: "20px",
+    width: "100%", 
   },
 };
 

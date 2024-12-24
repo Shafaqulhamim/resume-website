@@ -18,14 +18,45 @@ function Experience() {
           </li>
         ))}
       </ul>
+      <hr style={styles.line} />
     </section>
   );
 }
 
 const styles = {
-  section: { padding: "20px", backgroundColor: "#ffffff", textAlign: "center" },
-  list: { listStyle: "none", padding: 0 },
-  listItem: { margin: "10px 0" },
+  section: {
+    padding: "20px",
+    textAlign: "left",
+    backgroundColor: "#f4f4f9",
+    //maxWidth: "800px",
+    margin: "0 auto",
+  },
+  heading: {
+    fontSize: "1.8rem",
+    marginBottom: "10px",
+  },
+  list: {
+    listStyle: "none",
+    padding: 0,
+  },
+  listItem: {
+    marginBottom: "15px",
+  },
+  company: {
+    fontWeight: "bold",
+  },
+  role: {
+    margin: "5px 0",
+  },
+  years: {
+    color: "#666",
+  },
+  line: {
+    border: "none",
+    borderTop: "2px solid #ddd",
+    marginTop: "20px",
+    width: "100%",
+  },
 };
 
 export default Experience;
