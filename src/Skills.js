@@ -19,7 +19,10 @@ const styles = {
   section: {
     padding: "20px",
     backgroundColor: "#f4f4f9",
+    margin:"0 auto",
     textAlign: "center",
+    borderRadius: "8px",
+    marginBottom: "20px",
   },
   list: { listStyle: "none", padding: 0, display: "flex", justifyContent: "center" },
   listItem: { margin: "0 10px" },

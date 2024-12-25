@@ -19,8 +19,10 @@ const styles = {
     padding: "20px",
     textAlign: "left", 
     backgroundColor: "#f4f4f9",
-    // maxWidth: "800px", 
+    //maxWidth: "800px", 
     margin: "0 auto",
+    borderRadius: "8px",
+    marginBottom: "20px",
   },
   heading: {
     fontSize: "1.8rem",
