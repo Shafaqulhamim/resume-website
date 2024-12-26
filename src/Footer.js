@@ -21,7 +21,8 @@ const styles = {
   footer: {
     textAlign: "center",
     padding: "20px",
-    backgroundColor: "#282c34",
+    backgroundColor:"rgb(90, 103, 130)",
+    borderRadius: "15px",
     color: "#ffffff",
   },
   link: { color: "#61dafb", textDecoration: "none" },

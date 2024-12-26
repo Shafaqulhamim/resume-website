@@ -18,10 +18,14 @@ const styles = {
   section: {
     padding: "20px",
     textAlign: "left", 
-    backgroundColor: "#f4f4f9",
-    //maxWidth: "800px", 
-    margin: "0 auto",
-    borderRadius: "8px",
+    background: "rgba(255, 255, 255, 0.1)",
+    boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+    backdropFilter: "blur(10px)",
+    border: "1px solid rgba(255, 255, 255, 0.2)",
+    color: "#fff",
+    //maxWidth: "800px",
+    margin: "20px auto",
+    borderRadius:"15px",
     marginBottom: "20px",
   },
   heading: {
@@ -35,7 +39,7 @@ const styles = {
   },
   line: {
     border: "none",
-    borderTop: "2px solid #ddd", 
+    borderTop: "2px solid rgba(255, 255, 255, 0.2)",
     marginTop: "20px",
     width: "100%", 
   },

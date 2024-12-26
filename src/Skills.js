@@ -18,14 +18,20 @@ function Skills() {
 const styles = {
   section: {
     padding: "20px",
-    backgroundColor: "#f4f4f9",
-    margin:"0 auto",
+    background: "rgba(255, 255, 255, 0.1)",
+    boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+    backdropFilter: "blur(10px)",
+    border: "1px solid rgba(255, 255, 255, 0.2)",
+    color: "#fff",
+    //maxWidth: "800px",
+    margin: "20px auto",
+    borderRadius:"15px",
     textAlign: "center",
-    borderRadius: "8px",
     marginBottom: "20px",
+    maxWidth:"100%"
   },
-  list: { listStyle: "none", padding: 0, display: "flex", justifyContent: "center" },
-  listItem: { margin: "0 10px" },
+  list: { listStyle: "none", padding: 0, display: "flex", justifyContent: "center", flexWrap: "wrap" },
+  listItem: { margin: "0 10px", forntSize: "1.2em", },
 };
 
 export default Skills;

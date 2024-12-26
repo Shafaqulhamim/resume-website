@@ -30,11 +30,11 @@ const styles = {
     top: 0,
     width: "35vw", // Adjust the width of the header
     height: "110vh", 
-    backgroundColor: "#282c34",
+    backgroundColor: "rgb(38, 38, 38)",
     color: "#ffffff",
     padding: "20px",
     textAlign: "center",
-    boxShadow: "2px 0 5px rgba(0, 0, 0, 0.2)", // Adds a subtle shadow
+    //boxShadow: "2px 0 5px rgba(0, 0, 0, 0.2)", // Adds a subtle shadow
     display: "flex",
     flexDirection: "column",
     justifyContent: "center", // Vertically centers content
