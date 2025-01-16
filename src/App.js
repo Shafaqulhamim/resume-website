@@ -5,6 +5,7 @@ import Experience from "./Experience";
 import Footer from "./Footer";
 //import Game from "./Game";
 import Header from "./Header";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Experience />
       <Education/>
+      <Projects/>
       <Skills />
       {/* <Game/> */}
       <Footer />
