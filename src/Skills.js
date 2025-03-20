@@ -23,15 +23,22 @@ const styles = {
     backdropFilter: "blur(10px)",
     border: "1px solid rgba(255, 255, 255, 0.2)",
     color: "#fff",
-    //maxWidth: "800px",
+    // maxWidth: "800px",
     margin: "20px auto",
     borderRadius:"15px",
     textAlign: "center",
     marginBottom: "20px",
-    maxWidth:"100%"
+    maxWidth:"100%",
+    transition: "0.3s ease-in-out",
   },
   list: { listStyle: "none", padding: 0, display: "flex", justifyContent: "center", flexWrap: "wrap" },
   listItem: { margin: "0 10px", forntSize: "1.2em", },
+  "@media (max-width: 768px)": {
+    section: {
+      width: "90%", // Reduce width for smaller screens
+      padding: "15px",
+    },
+  },
 };
 
 export default Skills;

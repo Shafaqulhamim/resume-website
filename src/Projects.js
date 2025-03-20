@@ -2,21 +2,29 @@ import React from "react";
 
 function Projects() {
   const projects = [
-    { company: "Tritech Building Services Ltd, Dhaka", role: "Frontend Developer", years: "Aug 2022-Jul 2023" },
-    { company: "EXL Communications Ltd", role: "Flutter Developer Intern", years: "Jan 2022-Mar 2022" },
+    { Name: "Todo App", Desc: "Developed an todo app using React for practice. This app includes feature like making a todo list, adjusting the priority level, complete and deletion options"},
+    { Name: "Example", Desc: "This is an example that can be used next"},
   ];
 
   return (
     <section style={styles.section}>
       <h2>Projects</h2>
       <ul style={styles.list}>
-        {projects.map((pro, index) => (
-          <li key={index} style={styles.listItem}>
-            <h3>{pro.company}</h3>
-            <p>{pro.role}</p>
-            <p>{pro.years}</p>
-          </li>
-        ))}
+      {projects.map((pro, index) => (
+  <li key={index} style={styles.listItem}>
+    {index === 0 ? (
+      <a href="https://shafaqulhamim.github.io/todo-app/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      style={{textDecoration: "none" }}>
+        <h3 style={{ color: "white" }}>{pro.Name}</h3>
+      </a>
+    ) : (
+      <h3>{pro.Name}</h3>
+    )}
+    <p>{pro.Desc}</p>
+  </li>
+))}
       </ul>
       <hr style={styles.line} />
     </section>

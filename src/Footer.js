@@ -26,6 +26,12 @@ const styles = {
     color: "#ffffff",
   },
   link: { color: "#61dafb", textDecoration: "none" },
+  "@media (max-width: 768px)": {
+    section: {
+      width: "90%", // Reduce width for smaller screens
+      padding: "15px",
+    },
+  },
 };
 
 export default Footer;

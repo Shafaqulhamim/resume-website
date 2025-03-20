@@ -43,6 +43,12 @@ const styles = {
     marginTop: "20px",
     width: "100%", 
   },
+  "@media (max-width: 768px)": {
+    section: {
+      width: "90%", // Reduce width for smaller screens
+      padding: "15px",
+    },
+  },
 };
 
 export default About;
