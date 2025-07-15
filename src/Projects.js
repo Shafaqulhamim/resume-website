@@ -1,9 +1,8 @@
-import React from "react";
 
 function Projects() {
   const projects = [
     { Name: "Todo App", Desc: "Developed an todo app using React for practice. This app includes feature like making a todo list, adjusting the priority level, complete and deletion options"},
-    { Name: "Example", Desc: "This is an example that can be used next"},
+    { Name: "Simple Chat App", Desc: "Developed an simple chat app with real time messaging using react js, node js, express js, socket.io and postgreSQL. This app includes feature like real time messaging, user authentication, and message history." },
   ];
 
   return (
