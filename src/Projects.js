@@ -11,7 +11,7 @@ function Projects() {
       <ul style={styles.list}>
       {projects.map((pro, index) => (
   <li key={index} style={styles.listItem}>
-    {index === 0 ? (
+    {index === 1 ? (
       <a href="https://shafaqulhamim.github.io/todo-app/" 
       target="_blank" 
       rel="noopener noreferrer" 
