@@ -1,8 +1,7 @@
-import React from "react";
 
 function Experience() {
   const experiences = [
-    { company: "Tritech Building Services Ltd, Dhaka", role: "Frontend Developer", years: "Aug 2022-Jul 2023" },
+    { company: "Tritech Building Services Ltd, Dhaka", role: "Software Infrastructure Engineer and Frontend Developer", years: "Aug 2022-Jul 2023" },
     { company: "EXL Communications Ltd", role: "Flutter Developer Intern", years: "Jan 2022-Mar 2022" },
   ];
 
