@@ -1,29 +1,39 @@
-
 function Projects() {
   const projects = [
-    { Name: "Simple Chat App", Desc: "Developed an simple chat app with real time messaging using react js, node js, express js, socket.io and postgreSQL. This app includes feature like real time messaging, user authentication, and message history." },
-    { Name: "Todo App", Desc: "Developed an todo app using React for practice. This app includes feature like making a todo list, adjusting the priority level, complete and deletion options"},
+    { 
+      "Name": "TKT-Pro", 
+      "Desc": "Developed a role-based service ticket management system using React.js, Node.js, Express.js, Socket.IO, and PostgreSQL. The app features user authentication, role-specific permissions (Admin, Manager, Engineer, Customer), equipment and customer management, ticket creation and assignment, status tracking, comments, notifications, and real-time updates.",
+      "Link": "https://github.com/Shafaqulhamim/TickT-Pro"
+    },
+    { 
+      "Name": "Simple Chat App", 
+      "Desc": "Developed a simple chat app with real time messaging using React.js, Node.js, Express.js, Socket.IO, and PostgreSQL. This app includes features like real time messaging, user authentication, and message history.",
+      "Link": "https://github.com/Shafaqulhamim/chat-app"
+    },
+    { 
+      "Name": "Todo App", 
+      "Desc": "Developed a todo app using React for practice. This app includes features like making a todo list, adjusting the priority level, complete and deletion options",
+      "Link": "https://shafaqulhamim.github.io/todo-app/"
+    },
   ];
 
   return (
     <section style={styles.section}>
       <h2>Projects</h2>
       <ul style={styles.list}>
-      {projects.map((pro, index) => (
-  <li key={index} style={styles.listItem}>
-    {index === 1 ? (
-      <a href="https://shafaqulhamim.github.io/todo-app/" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      style={{textDecoration: "none" }}>
-        <h3 style={{ color: "white" }}>{pro.Name}</h3>
-      </a>
-    ) : (
-      <h3>{pro.Name}</h3>
-    )}
-    <p>{pro.Desc}</p>
-  </li>
-))}
+        {projects.map((pro, index) => (
+          <li key={index} style={styles.listItem}>
+            <a 
+              href={pro.Link} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              style={{ textDecoration: "none" }}
+            >
+              <h3 style={{ color: "white" }}>{pro.Name}</h3>
+            </a>
+            <p>{pro.Desc}</p>
+          </li>
+        ))}
       </ul>
       <hr style={styles.line} />
     </section>
@@ -39,9 +49,8 @@ const styles = {
     backdropFilter: "blur(10px)",
     border: "1px solid rgba(255, 255, 255, 0.2)",
     color: "#fff",
-    //maxWidth: "800px",
     margin: "20px auto",
-    borderRadius:"15px",
+    borderRadius: "15px",
     marginBottom: "20px"
   },
   heading: {
