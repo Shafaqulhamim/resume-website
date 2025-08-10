@@ -2,7 +2,7 @@ function Projects() {
   const projects = [
     { 
       "Name": "TKT-Pro", 
-      "Desc": "Developed a role-based service ticket management system using React.js, Node.js, Express.js, Socket.IO, and PostgreSQL. The app features user authentication, role-specific permissions (Admin, Manager, Engineer, Customer), equipment and customer management, ticket creation and assignment, status tracking, comments, notifications, and real-time updates.",
+      "Desc": "Developed a role-based service ticket management system using React.js, Node.js, Express.js, and PostgreSQL. The app features user authentication, role-specific permissions (Admin, Manager, Engineer, Customer), equipment and customer management, ticket creation and assignment, status tracking, comments, notifications, and real-time updates.",
       "Link": "https://github.com/Shafaqulhamim/TickT-Pro"
     },
     { 
